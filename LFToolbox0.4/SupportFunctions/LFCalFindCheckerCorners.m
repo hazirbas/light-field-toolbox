@@ -185,7 +185,7 @@ for( iFile = 1:length(FileList) )
                     axis tight
                 end
             end
-            truesize([150,150]); % bigger display
+            %truesize([150,150]); % bigger display
             drawnow
         end
     end
