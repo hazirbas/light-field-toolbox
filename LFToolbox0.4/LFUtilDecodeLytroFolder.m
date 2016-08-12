@@ -147,7 +147,7 @@ while( ~iscell(DecodeOptions.OptionalTasks) )
 end
 
 %---Crawl folder structure locating raw lenslet images---
-DefaultFileSpec = {'*.lfr', '*.lfp', '*.LFR', '*.raw', '*.RAW'}; % gets overriden below, if a file spec is provided
+DefaultFileSpec = {'*.lfr', '*.lfp', '*.LFR', '*.raw'}; % gets overriden below, if a file spec is provided
 DefaultPath = 'Images';
 [FileList, BasePath] = LFFindFilesRecursive( InputPath, DefaultFileSpec, DefaultPath );
 
