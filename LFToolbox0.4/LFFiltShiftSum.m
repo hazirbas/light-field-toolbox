@@ -105,7 +105,7 @@ for( TIdx = 1:LFSize(1) )
             LF(TIdx,SIdx, :,:, iChan) = CurSlice;
         end
     end
-    fprintf('.');
+    %fprintf('.');
 end
 
 switch( lower(FiltOptions.FlattenMethod) )
